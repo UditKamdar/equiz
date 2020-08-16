@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="dist/gauge.js" type="text/javascript"></script>
+    <script type="application/javascript">
+
+        var app = angular.module('gaugeExample', []);
+        app.directive('gaugeJs', function(){
+                return {
+                    restrict: 'A',
+                    scope: {
+                        options:'=',
+                        currentValue: '=ngModel'
+                    },
+                    compile: function(tElem, tAttrs) {
+
+                        if ( tElem[0].tagName !== 'CANVAS' ) {
+                          throw new Error('guage-js can only be set on a canvas element. ' + tElem[0].tagName + ' will not work.');
+                        }
+
+                        return function(scope, element, attrs) {
+
+                            var gauges = {};
+
+                            function setGauge(options){
+                                if (scope.options) {
+                                    var gauge = new Gauge(element[0]).setOptions(scope.options);
+                                    gauge.maxValue = scope.options.maxValue; // set max gauge value
+                                    gauge.setMinValue(scope.options.minValue);
+                                    gauge.animationSpeed = 32;
+                                    gauge.options.animationSpeed = 32;
+                                    gauge.set(scope.currentValue);
+                                    gauges[attrs.options] = gauge;
+                                }
+                            }
+
+                            scope.$watch('options', function(newV, oldV) {
+                                setGauge(scope.options);
+                            },true);
+
+                            scope.$watch('currentValue', function(newV, oldV) {
+                                if (gauges[attrs.options])
+                                    gauges[attrs.options].set(scope.currentValue);
+                            });
+                        };
+                    }
+                };
+            });
+        app.controller('gaugeController', ['$scope', '$http', '$log', function($scope, $http, $log) {
+            $scope.n = 10;
+            $scope.values = [12, 25, 30];
+            $scope.value = 25;
+
+            $scope.opts = {
+              lines: 1, // The number of lines to draw
+              angle: -0.3, // The length of each line
+              lineWidth: 0.1, // The line thickness1
+              pointer: {
+                length: 0.5, // The radius of the inner circle
+                strokeWidth: 0.035, // The rotation offset
+                color: '#000000' // Fill color
+              },
+              staticZones: [
+                 {strokeStyle: "#F03E3E", min: 10, max: 12.5}, // Red
+                 {strokeStyle: "#FFDD00", min: 12.5, max: 15}, // Yellow
+                 {strokeStyle: "#30B32D", min: 15, max: 22.5}, // Green
+                 {strokeStyle: "#FFDD00", min: 22.5, max: 26}, // Yellow
+                 {strokeStyle: "#F03E3E", min: 26, max: 30}  // Red
+              ],
+              limitMax: true,   // If true, the pointer will not go past the end of the gauge
+              limitMin: true,
+              colorStart: '#6FADCF',   // Colors
+              colorStop: '#8FC0DA',    // just experiment with them
+              strokeColor: '#E0E0E0',   // to see which ones work best for you
+              generateGradient: true,
+              highDpiSupport: true,
+              minValue: 10,
+              maxValue: 30,
+              animationSpeed: 32
+            };
+
+            $scope.setValues = function(value) {
+                console.log("Setting new value: " + value);
+                $scope.values = [];
+                for (var k=0; k<$scope.n; k++)
+                    $scope.values.push(value + k*0.01);
+            };
+
+            $scope.$watch("value", function (newValue, oldValue) {
+                //$scope.txpower = $scope.todB(newValue);
+                $scope.setValues(newValue);
+            });
+            //console.log($scope.values);
+
+            $scope.val = 10;
+            $scope.my_value = "Hei";
+
+            window.setTimeout( function() {
+                console.log("Timeout!");
+                $scope.val = 5;
+                $scope.setValues(10);
+            }, 3000);
+        }]);
+
+    </script>
+</head>
+<body ng-app="gaugeExample" ng-controller="gaugeController">
+    <div id="container">
+        {{ my_value }} <br/>
+        {{values[0]}} <br/>
+        {{values.length}} <br/>
+
+        <div ng-repeat="(key, val) in values" style="float: left">
+            {{ key }},{{val}}
+            <canvas gauge-js ng-model="val" options="opts" style="width:80px; height:80px"></canvas>
+        </div>
+    </div>
+</body>
+</html>

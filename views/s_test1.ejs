@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+	<title>home page</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--  <link href="../assets/node_modules/footable/css/footable.bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Page CSS -->
+
+	<!--  <link href="dist/css/pages/contact-app-page.css" rel="stylesheet"> -->
+	<link href="/dist/css/pages/footable-page.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="/dist/css/style.min.css" rel="stylesheet">
+	<link href="/dist/css/pages/floating-label.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/stylehome.css">
+	<link rel="stylesheet" type="text/css" href="/css/button1.css">
+	<script src="./../controllers/class_details.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="/css/logo2.jpeg" width="350" height="100" alt="" title="">
+			</div>
+
+
+			<nav>
+          
+				<a href="/s_mainpage"><li>Home</li></a>
+				 <li><a href="/s_about">About </a></li>
+			   
+				<li><a href="/s_contact">Contact</a> </li>
+				<li><a href="/logout">Log Out</a></li>
+		 </nav>
+
+	</header>
+	<div class="container">
+		<div class="content">
+
+			<h2 align="center"> WELCOME TO E-QUIZ </h2>
+			<div class="bodydiv1">
+				<div class="bodyp1">
+
+				</div>
+
+				<div class="bodyp2-1" style="background-color: white">
+
+					<h1>Question Page</h1>
+					<hr>
+					<form action="/controllers/test1" method="post">
+
+						<br>
+						<% for(var i=0;i<obj.print.length;i++) { %>
+
+
+<h4>
+
+						<!-- <div>
+								
+								<!-- <span style=" float: left;">
+									<u> Question <%= obj.print[i].question_no %>:</u> <%= obj.print[i].question %>
+								</span>
+								<span style=" float:right">Marks: <%= obj.print[i].marks %></span> -->
+
+						<!-- </div> -->
+						<div class="row">
+							<div class="col-9">
+
+								<div class="form-group m-b-5 ">
+
+
+									<label for="input7">Question <%= obj.print[i].question_no %>:</label>
+
+									<br>
+									<textarea class="form-control " id="input7" name="question"
+										disabled><%= obj.print[i].question %></textarea>
+									<span class="bar"></span>
+									<br>
+								</div>
+
+
+							</div>
+
+
+							<div class="=col-3">
+								<div class="form-group m-b-5 ">
+									<label>Marks</label>
+									<br>
+									<input type="text" class="form-control" name="marks"
+										value="<%= obj.print[i].marks %>" disabled>
+									<span class="bar"></span>
+
+
+
+									<br>
+
+								</div>
+
+							</div>
+						</div>
+						<br>
+
+
+
+
+						<div class="col-9 custom-control custom-radio">
+
+							<input type="radio" id="<%= obj.print[i].question_no %><%= obj.print[i].option_1 %>" name="<%= obj.print[i].question_no %><%= obj.print[i].question %>" class="custom-control-input" value="<%= obj.print[i].option_1 %>">
+							<label class="custom-control-label" for="<%= obj.print[i].question_no %><%= obj.print[i].option_1 %>"><%= obj.print[i].option_1 %></label>
+
+						</div>
+						<div class="col-9 custom-control custom-radio">
+							<input type="radio" id="<%= obj.print[i].question_no %><%= obj.print[i].option_2 %>" name="<%= obj.print[i].question_no %><%= obj.print[i].question %>" class="custom-control-input" value="<%= obj.print[i].option_2 %>">
+							<label class="custom-control-label" for="<%= obj.print[i].question_no %><%= obj.print[i].option_2 %>"><%= obj.print[i].option_2 %></label>
+							
+						
+						</div>
+
+						<div class="col-9 custom-control custom-radio">
+
+							<input type="radio" id="<%= obj.print[i].question_no %><%= obj.print[i].option_3 %>" name="<%= obj.print[i].question_no %><%= obj.print[i].question %>" class="custom-control-input" value="<%= obj.print[i].option_3 %>">
+							<label class="custom-control-label" for="<%= obj.print[i].question_no %><%= obj.print[i].option_3 %>"><%= obj.print[i].option_3 %></label>
+							
+							
+
+						</div>
+						<div class="col-9 custom-control custom-radio">
+							<input type="radio" id="<%= obj.print[i].question_no %><%= obj.print[i].option_4 %>" name="<%= obj.print[i].question_no %><%= obj.print[i].question %>" class="custom-control-input" value="<%= obj.print[i].option_4 %>">
+							<label class="custom-control-label" for="<%= obj.print[i].question_no %><%= obj.print[i].option_4 %>"><%= obj.print[i].option_4 %></label>
+							
+						
+						</div>
+
+
+
+
+
+
+						<!-- <input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_1 %>"><textarea disabled><%= obj.print[i].option_1 %></textarea>
+									<h4>Option2:<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_2 %>"><%= obj.print[i].option_2 %></h4>
+									<h4>Option3:<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_3 %>"><%= obj.print[i].option_3 %></h4>
+									<h4>Option4:<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_4 %>"><%= obj.print[i].option_4 %></h4>
+								 -->
+
+
+						<!-- <div class="col-7">
+										<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_1 %>">&nbsp;<textarea class="border-1" name="" disabled><%= obj.print[i].option_1 %></textarea>
+									</div><br>
+									<div class="col-7">
+										<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_2 %>"><textarea  class="form-control border-1" name="" disabled><%= obj.print[i].option_2 %></textarea>
+									</div><br>
+									<div class="col-7">
+										<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_3 %>"><textarea class=" border-1" name="" disabled><%= obj.print[i].option_3 %></textarea>
+									</div><br>
+									<div class="col-7">
+										<input type="radio" name="<%= obj.print[i].question %>" value="<%= obj.print[i].option_4 %>"><textarea class=" border-1" name="" disabled><%= obj.print[i].option_4 %></textarea>
+									</div><br><br>  -->
+
+<hr>
+</h4>
+
+						<% } %>
+
+
+
+						<button class="b1">Submit Quiz</button>
+					</form>
+
+
+
+
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+	</div>
+	<script src="/dist/js/custom.min.js"></script>
+
+	<script src="/dist/js/pages/jasny-bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <title>home page</title>
+    <link rel="stylesheet" type="text/css" href="/css/stylehome.css">
+    <link rel="stylesheet" type="text/css" href="/css/button1.css">
+
+    <link href="/views/dist/css/style.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="/views/assets/node_modules/footable/css/footable.bootstrap.min.css" rel="stylesheet">
+    <!-- Page CSS -->
+
+    <!-- <!-- <link href="/views/dist/css/pages/contact-app-page.css" rel="stylesheet">
+    <link href="/views/dist/css/pages/footable-page.css" rel="stylesheet"> -->
+    <!-- Custom CSS -->
+    
+     <link href="/views/dist/css/pages/floating-label.css" rel="stylesheet">
+    <!-- <script src="/views/dist/popupS.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/popupS.min.css">  -->
+
+
+           <link href="/views/dist/css/style.min.css" rel="stylesheet">
+           <link href="/views/assets/node_modules/footable/css/footable.bootstrap.min.css" rel="stylesheet">
+           <link href="/views/dist/css/pages/contact-app-page.css" rel="stylesheet">
+           <link href="/views/dist/css/pages/footable-page.css">
+           <link rel="stylesheet" href="/views/dist/css/pages/floating-label.css">
+           <!-- <script src="/views/dist/css/" -->
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/css/logo2.jpeg" width="350" height="100" alt="" title="">
+            </div>
+
+
+            <nav>
+                <a href="/mainpage">
+                    <li>Home</li>
+                </a>
+                <li><a href="/about">About </a></li>
+                <li><a href="/work">Work</a> </li>
+                <li><a href="/contact">Contact</a> </li>
+                <li><a href="/logout">Log Out</a></li>
+            </nav>
+
+    </header>
+    <!-- <div class="container">
+        <div class="content"> -->
+            <div id="main-wrapper">
+                <div class="page-wrapper">
+                    <!-- ============================================================== -->
+                    <!-- Container fluid  -->
+                    <!-- ============================================================== -->
+                    <div class="container-fluid">
+
+            <h2 align="center"> WELCOME TO E-QUIZ </h2>
+            <div class="bodydiv1">
+                <div class="bodyp1">
+                    <h1>Continue with the following tasks:</h1><br>
+                    <form action="/teacher/classroom" method="POST"> <button class="button9"><span>Create
+                                Classroom</span> </button></form><br><br><br>
+                    <form action="/teacher/view_classroom" method="POST"> <button class="button9"><span>My
+                                Classrooms</span> </button></form><br><br><br>
+                    <form action="/teacher/review_result" method="POST"> <button class="button9"><span>Review
+                                Result</span> </button></form><br><br><br>
+
+                </div>
+                <div class="bodyp2-1">
+                    <h1>MCQs</h1>
+                    <hr>
+                    <form class="floating-labels m-t-40" action="/teacher/add_mcq" method="post">
+                        <div id="container_div_id">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card m-b-0">
+                                        <!-- .chat-row -->
+
+                                        <!-- .chat-left-panel -->
+                                        <!-- .chat-right-panel -->
+
+                                        <div class="card-body border-top">
+
+                                            <div class="row">
+                                                <div class="col-5">
+
+                                                    <div class="form-group m-b-5 ">
+
+
+                                                        <label for="input7">Question</label>
+                                                               <br>
+                                                        
+                                                        <textarea class="form-control  " name="question"
+                                                            id="input7" rows="3" cols="20" ></textarea>
+                                                        
+                                                    </div>
+
+
+                                                </div>
+
+
+                                                <div class="=col-3">
+                                                    <div class="form-group m-b-5 ">
+                                                       
+                                                        
+
+                                                        <label>Marks</label>
+                                                        <input type="number" class="form-control " name="marks">
+                                                        
+
+                                                    </div>
+
+                                                </div>
+
+
+
+
+
+
+
+
+
+                                                <div class="row">
+                                                    <div class="col-8">
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <textarea placeholder="Option1"
+                                                                    class="form-control border-1 "
+                                                                    name="option1" rows="3" cols="20"></textarea>
+                                                            </div>
+                                                            <div class="col-5">
+                                                                <textarea placeholder="Option2"
+                                                                    class="form-control border-1 "
+                                                                    name="option2" rows="3" cols="20"></textarea>
+                                                            </div>
+                                                            <br>
+                                                            <br>
+                                                            <div class="col-5">
+                                                                <textarea placeholder="Option3"
+                                                                    class="form-control border-1 "
+                                                                    name="option3" rows="3" cols="20"></textarea>
+                                                            </div>
+                                                            <div class="col-5">
+                                                                <textarea placeholder="Option 4"
+                                                                    class="form-control border-1 "
+                                                                    name="option4" rows="3" cols="40"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <!-- <h3>Enter Question: <input type="text" name="question"  size="50" class="i1">
+                Marks:  <input type="text" name="marks"  size="10" class="i1"></h3>
+				<h4>Enter Option1:  <input type="text" name="option1"  size="50" class="i1"></h4>
+				<h4>Enter Option2:  <input type="text" name="option2"  size="50" class="i1"></h4>
+				<h4>Enter Option3:  <input type="text" name="option3"  size="50" class="i1"></h4>
+                <h4>Enter Option4:  <input type="text" name="option4"  size="50" class="i1"></h4> -->
+                                    <h4>Correct Answer: <input type="text" name="correctanswer" size="50" class="i1">
+                                    </h4><br>
+                                    <button class="b1">Add Question</button>
+                                </div>
+                            </div>
+                    </form><br>
+
+                    <form action="/teacher/question_page" method="GET"><button class="b1">Question Page </button></form>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    </div>
+
+    <!-- <script src="/views/assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="/views/assets/node_modules/popper/popper.min.js"></script>
+    <script src="/views/assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="/views/dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="/views/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="/views/dist/js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="/views/assets/node_modules/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="/views/dist/js/custom.min.js"></script>
+ 
+    <script src="/views/dist/js/pages/jasny-bootstrap.js"></script>
+ -->
+
+
+    </div>
+  
+</body>
+
+</html>

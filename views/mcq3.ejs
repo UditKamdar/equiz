@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+	<title>home page</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--  <link href="../assets/node_modules/footable/css/footable.bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Page CSS -->
+
+	<!--  <link href="dist/css/pages/contact-app-page.css" rel="stylesheet"> -->
+	<link href="/dist/css/pages/footable-page.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="/dist/css/style.min.css" rel="stylesheet">
+	<link href="/dist/css/pages/floating-label.css" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="/css/stylehome.css">
+	<link rel="stylesheet" type="text/css" href="/css/button1.css">
+	<!-- <script src="dist/popupS.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/popupS.min.css"> -->
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="/css/logo2.jpeg" width="350" height="100" alt="" title="">
+			</div>
+
+
+			<nav>
+
+                <li><a href="/mainpage">
+                        Home
+                    </a></li>
+                <li><a href="/about">About </a></li>
+
+                <li><a href="/contact">Contact</a> </li>
+                <li><a href="/logout">Log Out</a></li>
+            </nav>
+	</header>
+	<div class="container">
+		<div class="content">
+
+			<h2 align="center"> WELCOME TO E-QUIZ </h2>
+			<div class="bodydiv1">
+				<div class="bodyp1">
+					<h1>Continue with the following tasks:</h1><br>
+					<form action="/teacher/classroom" method="POST"> <button class="button9"><span>Create
+								Classroom</span> </button></form><br><br><br>
+					<form action="/teacher/view_classroom" method="POST"> <button class="button9"><span>My
+								Classrooms</span> </button></form><br><br><br>
+					<form action="/teacher/review_result" method="POST"> <button class="button9"><span>Review
+								Result</span> </button></form><br><br><br>
+				</div>
+				<div class="bodyp2-1">
+					<h1>MCQs</h1>
+					<hr>
+					<form action="/teacher/add_mcq_1" method="post" class=" floating-labels m-t-40">
+						<!-- <div id="container_div_id"> -->
+
+
+						<!-- .chat-row -->
+
+						<!-- .chat-left-panel -->
+						<!-- .chat-right-panel -->
+
+
+						<div class="row">
+							<div class="col-9">
+
+								<div class="form-group m-b-5 ">
+
+
+									<label for="input7">Question</label>
+
+									<br>
+									<textarea class="form-control " rows="3" id="input7" name="question"></textarea>
+									<span class="bar"></span>
+									<br>
+								</div>
+
+
+							</div>
+
+
+							<div class="=col-3">
+								<div class="form-group m-b-5 ">
+									<label>Marks</label>
+									<br>
+									<input type="text" class="form-control " name="marks">
+									<span class="bar"></span>
+
+
+
+									<br>
+
+								</div>
+
+							</div>
+						</div>
+
+
+						<div class="col-7">
+							<textarea placeholder="Option 1" class="form-control border-1" name="option1"></textarea>
+						</div><br>
+						<div class="col-7">
+							<textarea placeholder="Option 2" class="form-control border-1" name="option2"></textarea>
+						</div><br>
+						<div class="col-7">
+							<textarea placeholder="Option 3" class="form-control border-1" name="option3"></textarea>
+						</div><br>
+						<div class="col-7">
+							<textarea placeholder="Option 4" class="form-control border-1" name="option4"></textarea>
+						</div><br><br>
+						<div class="col-7">
+							<div class="form-group m-b-5 ">
+
+
+								<label for="input7">Correct Answer</label>
+								<br>
+
+								<textarea  class="form-control border-1" name="correctanswer"></textarea>
+							</div><br>
+
+						</div>
+						<button class="b1">Add Question</button>
+
+					</form><br>
+					<form action="/teacher/question_page_1" method="GET"><button class="b2">Question Page</button>
+					</form><br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+
+
+
+
+
+
+	</div>
+	</div>
+
+	</div>
+	</div>
+	<script src="/dist/js/custom.min.js"></script>
+
+	<script src="/dist/js/pages/jasny-bootstrap.js"></script>
+</body>
+
+</html>

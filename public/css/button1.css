@@ -1,0 +1,45 @@
+.b1
+{
+	margin-bottom: 10px;
+	width: 120px;
+	height: 32px;
+	background-color: #f44336;
+	border:none;
+	border-radius: 2px;
+	color:#fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor:pointer;
+}
+
+.b1:hover,
+.b1:focus
+{
+	background:#ff5722;
+	transition: 0.2s ease;
+}
+
+.b2
+{
+	margin-bottom: 10px;
+	width: 120px;
+	height: 39px;
+	background-color: #f44336;
+	border:none;
+	border-radius: 2px;
+	color:#fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor:pointer;
+}
+
+.b2:hover,
+.b2:focus
+{
+	background:#ff5722;
+	transition: 0.2s ease;
+}

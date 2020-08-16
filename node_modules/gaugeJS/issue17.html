@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="gauge">
+        <canvas id="gauge-canvas"></canvas>
+        <div id="gauge-text"></div>
+    </div>
+   <div id="donut">
+        <canvas id="donut-canvas"></canvas>
+        <div id="donut-text"></div>
+   </div>
+
+    <script type="application/javascript" src="dist/gauge.js" ></script>
+<script type="application/javascript">
+    var options = {
+    maxValue: 100,
+    animationSpeed: 32,
+    lines: 19,
+    angle: 0.15,
+    lineWidth: 0.34, // The line thickness
+    pointer: {
+      length: 0.5, // The radius of the inner circle
+      strokeWidth: 0.027, // The rotation offset
+      color: '#333', // Fill color
+      iconPath: 'faceholder.png',
+      iconScale: 1,
+      iconAngle: 90
+    },
+    colorStart: '#0F6E38',   // Colors
+    colorStop: '#0ACF38',    // just experiment with them
+    strokeColor: '#B81A1A',   // to see which ones work best for you
+    generateGradient: true
+};
+
+var gauge = new Gauge(document.getElementById("gauge-canvas"));
+gauge.setTextField(document.getElementById("gauge-text"));
+gauge.setOptions(options); // create sexy gauge!
+gauge.maxValue = options.maxValue; // set max gauge value
+gauge.animationSpeed = options.animationSpeed; // set animation speed (32 is default value)
+gauge.set([30, 80]);
+
+var donut = new Donut(document.getElementById("donut-canvas"));
+donut.setTextField(document.getElementById("donut-text"));
+donut.set(0);
+</script>
+
+</html>

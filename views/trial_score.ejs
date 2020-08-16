@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>home page</title>
+<link rel="stylesheet"  type="text/css" href="/css/stylehome.css">
+<!-- <script>
+	function check(){
+		
+	}
+</script> -->
+<!-- <script src="dist/popupS.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/popupS.min.css"> -->
+</head>
+<body> 
+
+    <header>
+		<div class="container">
+		<div class="logo">
+			<img src="/css/logo2.jpeg" width="350" height="100" alt="" title="">
+        </div> 
+   
+
+   <nav>
+	<a href="/mainpage"><li>Home</li></a>
+	<li><a href="/about">About </a></li>
+   <li><a href="/work">Work</a> </li>
+   <li><a href="/contact">Contact</a> </li>
+   <li><a href="/logout">Log Out</a></li>
+   </nav>
+     
+      </header>
+<div class="container">
+	<div class="content">
+		
+		<h2 align="center"> WELCOME TO E-QUIZ </h2>
+		<div class="bodydiv1">
+		   <div class="bodyp1">
+			
+		   </div>
+		   <div class="bodyp2-1">
+			
+			<form method="GET" action="/teacher/show_singleques">
+				<input type="submit" value="submit"></input>
+			</form>
+			<form action="/teacher/mcq" method="post">
+			<div id="container_div_id">
+				<br>Start Quiz  
+				
+					
+					
+				<h3> <span>Question: <%= obj.print[0].question %></span><span>Marks: <%= obj.print[0].marks %></span>
+							 </h3>
+							<h4><button onclick="/teacher/score" method="post"> Option1: </button> <%= obj.print[0].option_1 %></h4>
+							<h4><button onclick="/teacher/score" method="post"></button> Option2: </button> <%= obj.print[0].option_2 %></h4>
+							<h4><button onclick="/teacher/score" method="post"></button> Option3: </button> <%= obj.print[0].option_3 %></h4>
+							<h4><button onclick="/teacher/score" method="post"></button> Option4: </button> <%= obj.print[0].option_4 %></h4>
+						
+						
+               
+				
+				
+                <!-- <input type="submit" name="submit" id=""></input></form>
+                <form action="/teacher/add_question" method="POST"><button value="submit">Add Question</button></form>
+				<form action="/teacher/question_page" method="POST"><button>Go to Question Page</button>
+				
+				<!-- <br>
+                <h3>Enter Question: <input type="text" name="question_2"  size="50" class="i1">
+                Marks:  <input type="text" name="marks_2"  size="10" class="i1"></h3></h3>
+				<h4>Enter Option1:  <input type="text" name="option_1"  size="50" class="i1"></h4>
+				<h4>Enter Option2:  <input type="text" name="option_2"  size="50" class="i1"></h4>
+				<h4>Enter Option3:  <input type="text" name="option_3"  size="50" class="i1"></h4>
+				<h4>Enter Option4:  <input type="text" name="option_4"  size="50" class="i1"></h4>
+					<br> -->
+				
+			</div>       
+           
+				</form>
+					
+				
+		    </div>
+		</div>
+			
+	</div>
+</div>
+
+</body>
+</html>

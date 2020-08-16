@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20f3459f-5ad9-453d-9fe8-ef2f67db7322" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gauge.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/gauge.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="gauge.js.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gauge.js" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="gauge.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19734">
+              <caret line="715" lean-forward="true" selection-start-line="715" selection-end-line="715" />
+              <folding>
+                <element signature="e#2763#4312#0" />
+                <element signature="e#4334#4517#0" />
+                <element signature="e#5151#6890#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1201">
+                <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="issue17.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/issue17.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kp_test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kp_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3545">
+              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular_test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3135">
+              <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+              <folding>
+                <marker date="1560605529516" expanded="true" signature="29535:30479" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gauge.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28677">
+              <caret line="991" selection-start-line="991" selection-end-line="991" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>export</find>
+      <find>forceUpdate</find>
+      <find>iconP</find>
+      <find>zones</find>
+      <find>getColorForVa</find>
+      <find>.add</find>
+      <find>AnimationUpdater.run</find>
+      <find>.run</find>
+      <find>cancel</find>
+      <find>set(</find>
+      <find>update(</find>
+      <find>console</find>
+      <find>getColor</find>
+      <find>Gauge</find>
+      <find>formatNumber</find>
+      <find>setTextField</find>
+      <find>set</find>
+      <find>update</find>
+      <find>scale</find>
+      <find>radiusScale</find>
+      <find>AnimationUp</find>
+      <find>Animation</find>
+      <find>AnimationUpdater</find>
+      <find>AnimationUpdater.add</find>
+      <find>clear</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dist/gauge.min.js" />
+        <option value="$PROJECT_DIR$/assets/main.css" />
+        <option value="$PROJECT_DIR$/kp.html" />
+        <option value="$PROJECT_DIR$/angular_test.html" />
+        <option value="$PROJECT_DIR$/issue17.html" />
+        <option value="$PROJECT_DIR$/dist/gauge.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/dist/gauge.coffee" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/kp_test.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="359" />
+    <option name="y" value="45" />
+    <option name="width" value="1829" />
+    <option name="height" value="1755" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gauge.js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gauge.js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gauge.js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gauge.js" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gauge.js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gauge.js" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="gauge.coffee" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonCRC" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gauge.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="gauge.js" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="gauge.js" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="gauge.js" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20f3459f-5ad9-453d-9fe8-ef2f67db7322" name="Default" comment="" />
+      <created>1477435935043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477435935043</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Make staticLabels HiDpi-compatible. Set options 'highDpiSupport to be true.">
+      <created>1478044700269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1478044700269</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Specify numerical precision for staticLabels values. New optional field staticLabels.fractionDigits.">
+      <created>1483188532576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483188532576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove console.log()">
+      <created>1483196369446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483196369446</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated kp demo">
+      <created>1483810416422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483810416422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Embedding zone-styled gauge into demo page.">
+      <created>1483810562020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1483810562020</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Introducing a relative radius scaling factor which fixes #111.">
+      <created>1486206935062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1486206935062</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed #72: Fixed a bug causing all gauge pointers to have the same color.">
+      <created>1486240442824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1486240442824</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Assign color to staticLabels. Delete redundant GaugePointer, something that might cause be related to problems in reported in issue #43, #46 and #71?">
+      <created>1486250991189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1486250991189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated info for release v1.3.1">
+      <created>1486256682448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1486256682448</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixed #116: Force an gauge update in first .set() operation.&#10;Fixed #117: Static labels and zones must respect limitMin and limitMax.">
+      <created>1486311330940</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1486311330940</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Doc updates for 1.3.2">
+      <created>1486806433638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1486806433638</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Improved protection for non-numerical input.">
+      <created>1488232274566</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1488232274566</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed #124: Improved protection for non-numerical input.">
+      <created>1491644048957</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1491644048957</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Doc updates for 1.3.3">
+      <created>1491731563854</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491731563854</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Improved pointer tip icon feature and added documentation for it.">
+      <created>1493937268086</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1493937268086</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Improved pointer tip icon feature and added documentation for it.">
+      <created>1493938764128</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493938764128</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Doc updates, new version number.">
+      <created>1494627571387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1494627571387</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Sorry, I missed a couple of files. See previous commit message.">
+      <created>1494628872411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1494628872411</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated docs and package files.">
+      <created>1499520120549</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1499520120549</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Issue #46: Prevent requestAnimationFrame() callbacks from piling up.">
+      <created>1500907432105</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1500907432105</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Correct use of options.generateGradient as discussed in PR #65.">
+      <created>1503004841518</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1503004841518</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="359" y="45" width="1829" height="1755" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39779004" side_tool="true" weight="0.7004701" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48895028" weight="0.32639354" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6022099" weight="0.23267327" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20721236" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.3055712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.44790342" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Make staticLabels HiDpi-compatible. Set options 'highDpiSupport to be true." />
+    <MESSAGE value="Specify numerical precision for staticLabels values. New optional field staticLabels.fractionDigits." />
+    <MESSAGE value="Remove console.log()" />
+    <MESSAGE value="Updated kp demo" />
+    <MESSAGE value="Embedding zone-styled gauge into demo page." />
+    <MESSAGE value="Introducing a relative radius scaling factor which fixes #111." />
+    <MESSAGE value="Fixed #72: Fixed a bug causing all gauge pointers to have the same color." />
+    <MESSAGE value="Assign color to staticLabels. Delete redundant GaugePointer, something that might cause be related to problems in reported in issue #43, #46 and #71?" />
+    <MESSAGE value="Updated info for release v1.3.1" />
+    <MESSAGE value="Fixed #116: Force an gauge update in first .set() operation.&#10;Fixed #117: Static labels and zones must respect limitMin and limitMax." />
+    <MESSAGE value="Doc updates for 1.3.2" />
+    <MESSAGE value="Improved protection for non-numerical input." />
+    <MESSAGE value="Fixed #124: Improved protection for non-numerical input." />
+    <MESSAGE value="Doc updates for 1.3.3" />
+    <MESSAGE value="Improved pointer tip icon feature and added documentation for it." />
+    <MESSAGE value="Doc updates, new version number." />
+    <MESSAGE value="Sorry, I missed a couple of files. See previous commit message." />
+    <MESSAGE value="Updated docs and package files." />
+    <MESSAGE value="Issue #46: Prevent requestAnimationFrame() callbacks from piling up." />
+    <MESSAGE value="Correct use of options.generateGradient as discussed in PR #65." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct use of options.generateGradient as discussed in PR #65." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+          <folding>
+            <marker date="1560605529516" expanded="true" signature="29535:30479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32307">
+          <caret line="979" selection-start-line="979" selection-end-line="979" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7986">
+          <caret line="242" column="16" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14912" selection-start-column="14912" selection-end-column="14912" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28248">
+          <caret line="856" selection-start-line="836" selection-start-column="8" selection-end-line="836" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11451">
+          <caret line="347" column="26" selection-start-line="347" selection-start-column="18" selection-end-line="347" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1560605529516" expanded="true" signature="29535:30479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7986">
+          <caret line="242" column="16" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14918" selection-start-column="14918" selection-end-column="14918" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27951">
+          <caret line="847" selection-start-line="827" selection-start-column="8" selection-end-line="827" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13596">
+          <caret line="412" column="15" selection-start-line="412" selection-start-column="15" selection-end-line="412" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <marker date="1560605529516" expanded="true" signature="29535:30479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14870" selection-start-column="14870" selection-end-column="14870" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19734">
+          <caret line="598" selection-start-line="598" selection-end-line="598" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14870" selection-start-column="14870" selection-end-column="14870" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19734">
+          <caret line="598" selection-start-line="598" selection-end-line="598" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19272">
+          <caret line="584" column="22" selection-start-line="580" selection-start-column="20" selection-end-line="580" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13002">
+          <caret line="394" column="44" selection-start-line="394" selection-start-column="44" selection-end-line="394" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14779" selection-start-column="14779" selection-end-column="14779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18975">
+          <caret line="575" column="29" selection-start-line="575" selection-start-column="20" selection-end-line="575" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13002">
+          <caret line="394" column="44" selection-start-line="394" selection-start-column="44" selection-end-line="394" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14779" selection-start-column="14779" selection-end-column="14779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18975">
+          <caret line="575" column="29" selection-start-line="575" selection-start-column="20" selection-end-line="575" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13002">
+          <caret line="394" column="44" selection-start-line="394" selection-start-column="44" selection-end-line="394" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14779" selection-start-column="14779" selection-end-column="14779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18975">
+          <caret line="575" column="29" selection-start-line="575" selection-start-column="20" selection-end-line="575" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12936">
+          <caret line="392" column="32" selection-start-line="392" selection-start-column="32" selection-end-line="392" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7986">
+          <caret line="242" column="16" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp.html" />
+    <entry file="file://$PROJECT_DIR$/dist/gauge.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15531" selection-start-column="15531" selection-end-column="15531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28677">
+          <caret line="991" selection-start-line="991" selection-end-line="991" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issue17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/gauge.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19734">
+          <caret line="715" lean-forward="true" selection-start-line="715" selection-end-line="715" />
+          <folding>
+            <element signature="e#2763#4312#0" />
+            <element signature="e#4334#4517#0" />
+            <element signature="e#5151#6890#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1201">
+            <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kp_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3545">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+          <folding>
+            <marker date="1560605529516" expanded="true" signature="29535:30479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

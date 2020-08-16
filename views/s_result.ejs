@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>home page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--  <link href="../assets/node_modules/footable/css/footable.bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Page CSS -->
+
+	<!--  <link href="dist/css/pages/contact-app-page.css" rel="stylesheet"> -->
+	<link href="/dist/css/pages/footable-page.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="/dist/css/style.min.css" rel="stylesheet">
+	<link href="/dist/css/pages/floating-label.css" rel="stylesheet">
+<link rel="stylesheet"  type="text/css" href="/css/stylehome.css">
+<link rel="stylesheet" type="text/css" href="/css/classroom_button.css">
+<!-- <script src="dist/popupS.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/popupS.min.css"> -->
+</head>
+<body> 
+
+    <header>
+		<div class="container">
+		<div class="logo">
+			<img src="/css/logo2.jpeg" width="350" height="100" alt="" title="">
+        </div> 
+   
+
+        <nav>
+          
+            <a href="/s_mainpage"><li>Home</li></a>
+             <li><a href="/s_about">About </a></li>
+           
+            <li><a href="/s_contact">Contact</a> </li>
+            <li><a href="/logout">Log Out</a></li>
+     </nav>
+     
+      </header>
+<div class="container">
+	<div class="content">
+		
+		<h2 align="center"> WELCOME TO E-QUIZ </h2>
+		<div class="bodydiv1">
+		   <div class="bodyp1">
+		   	<h1>Continue with the following tasks:</h1><br>
+               <form action="/student/joinclass" method="POST">	<button class="button9"><span>Join Classroom</span> </button></form><br><br><br>
+               <form action="/student/view_classroom" method="POST"><button class="button9"><span>My Classrooms</span></button></form><br><br><br>
+               <form action="/student/review_result" method="POST"><button class="button9"> <span>Review Results</span> </button></form>
+		   </div>
+		   <div class="bodyp2-1">
+			<h1 align="center">My Classrooms</h1><hr>
+			
+            <form action="/controllers/s_result1" method="post">
+                <div id="container_div_id">
+                    <br>
+                    <% for(var i=0;i<obj.print.length;i++) { %>
+                        
+                        
+        
+                                <!-- <h4><input type="button"  value="<%= obj.print[i].subject_name %>"><%= obj.print[i].subject_name %></h4> -->
+                               <h3><button name="classroom" class="classroom_button" value="<%= obj.print[i].subject_name %>"><%= obj.print[i].subject_name %></button></h3>
+                                <% } %> 
+                   
+                    
+                    
+                                </form>
+                    
+                    
+                    
+                    
+                </div>       
+               
+                    </form>
+                        
+				
+		    </div>
+		</div>
+			
+	</div>
+</div>
+<script src="/dist/js/custom.min.js"></script>
+
+<script src="/dist/js/pages/jasny-bootstrap.js"></script>
+</body>
+</html>

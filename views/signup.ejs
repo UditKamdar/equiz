@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form login signup</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+	</script>
+	
+</head>
+<body>
+    <% if (obj=="student" || obj=="teacher") { %>
+        <script>
+            swal({
+  icon: '',
+  title: 'User already exists!',
+  text: '',
+  footer: '<a href>Why do I have this issue?</a>'
+})			  
+       </script>
+       <% } %>
+       <% if (obj=="password") { %>
+        <script>
+            swal({
+  icon: 'error',
+  title: 'Password and confirm password does not match!',
+  text: '',
+  footer: '<a href>Why do I have this issue?</a>'
+})			  
+       </script>
+       <% } %>
+	<div id="login-box">
+		
+		    <div class="left-box">
+				<form   action="/controllers/register_controller" method="POST">
+				<input type="radio"  name="toggle_option" value="teacher">Teacher
+                <input type="radio" checked  name="toggle_option" value="student">Student <br><br>
+				<h1>Sign Up</h1>
+            	<input type="text" name="username" placeholder="Username"/>
+            	<input type="text" name="email" placeholder="Email"/>
+            	<input type="password" name="password" placeholder="Password"/>
+            	<input type="password" name="confirmpassword" placeholder="Confirm password"/>
+				<button>Signup</button>				
+            </form>
+            </div>
+
+            <div class="right-box">
+		    	<span class="signinwith"> Sign in with<br>Social Network</span>
+		    	<button class="social facebook">Log in with Facebook</button>
+            	<button class="social twitter">Log in with Twitter</button>
+            	<button class="social google">Log in with Google+</button></form>
+			</div>
+        
+		<div class="or">OR</div>
+		</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <title>home page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--  <link href="../assets/node_modules/footable/css/footable.bootstrap.min.css" rel="stylesheet"> -->
+	<!-- Page CSS -->
+
+	<!--  <link href="dist/css/pages/contact-app-page.css" rel="stylesheet"> -->
+	<link href="/dist/css/pages/footable-page.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="/dist/css/style.min.css" rel="stylesheet">
+	<link href="/dist/css/pages/floating-label.css" rel="stylesheet">
+<link rel="stylesheet"  type="text/css" href="/css/stylehome.css">
+<link rel="stylesheet"  type="text/css" href="/css/button1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+<!-- <script src="dist/popupS.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/popupS.min.css"> -->
+</head>
+<body> 
+
+    <header>
+		<div class="container">
+		<div class="logo">
+			<img src="/css/logo2.jpeg" width="350" height="100" alt="" title="">
+        </div> 
+   
+
+        <nav>
+          
+          <a href="/s_mainpage"><li>Home</li></a>
+     	  <li><a href="/s_about">About </a></li>
+         
+          <li><a href="/s_contact">Contact</a> </li>
+          <li><a href="/logout">Log Out</a></li>
+   </nav>
+      </header>
+<div class="container">
+	<div class="content">
+        <% if (obj=="false") { %>
+            <script>
+                swal({
+      icon: 'error',
+      title: 'Code not found!',
+      text: '',
+      footer: '<a href>Why do I have this issue?</a>'
+    })			  
+           </script>
+           <% } %>
+           <% if (obj1=="true") { %>
+            <script>
+                swal({
+      icon: '',
+      title: 'You have already joined the class!',
+      text: '',
+      footer: '<a href>Why do I have this issue?</a>'
+    })			  
+           </script>
+           <% } %>
+		<h2 align="center"> WELCOME TO E-QUIZ </h2>
+		<div class="bodydiv1">
+		   <div class="bodyp1">
+		   	<h1>Continue with the following tasks:</h1><br>
+			   <form action="/student/joinclass" method="POST">	<button class="button9"><span>Join Classroom</span> </button></form><br><br><br>
+			   <form action="/student/view_classroom" method="POST"><button class="button9"><span>My Classrooms</span></button></form><br><br><br>
+			   <form action="/student/review_result" method="POST"><button class="button9"> <span>Review Results</span> </button></form>
+		   </div>
+		   <div class="bodyp2-1">
+			<h1 align="center">Enter the code to join the classroom :</h1><hr><br>
+
+			<form action="/controllers/s_classroom" method="POST">
+  <h3><label for="code">Classroom Code :</label><br><br>
+  <input type="text" id="class_code" name="class_code"></h3><br>
+  <button class="b1">Submit</button>
+		</form>
+        
+			</div>       
+           
+				
+					
+				
+		    </div>
+		</div>
+			
+	</div>
+</div>
+<script src="/dist/js/custom.min.js"></script>
+
+<script src="/dist/js/pages/jasny-bootstrap.js"></script>
+</body>
+</html>

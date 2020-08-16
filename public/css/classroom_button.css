@@ -1,0 +1,22 @@
+.classroom_button
+{
+	margin-bottom: 28px;
+	width: 200px;
+	height: 100px;
+	background-color: #f44336;
+	border:none;
+	border-radius: 5px;
+	color:#fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.4s ease;
+	cursor:pointer;
+}
+
+.b1:hover,
+.b1:focus
+{
+	background:#ff5722;
+	transition: 0.4s ease;
+}
