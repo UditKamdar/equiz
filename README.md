@@ -6,6 +6,8 @@ from the student side, student first join the classroom and then can access the 
 right now but will add soon.
 
 To run the application,
+
+First of all add import all the tables from database table folder into your sql database. and then 
    Go to the command prompt.....
    Open the project folder
    
